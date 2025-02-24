@@ -1,0 +1,182 @@
+/* Background Div */
+.nav-bg-div {
+    background-image: url('../assets/ssssss.svg'); /* Add your image path here */
+    background-size: cover; /* Makes the image cover the entire container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    /* background-color:#30C7B5; Fallback color */
+    /* height: 100vh; Ensure full-screen height */
+    width: 100%;
+    padding: 0 5rem;
+    overflow-y: hidden;
+}  
+
+/* Navigation Background Image */
+.nav-bg-img {
+    object-fit: cover; /* Ensure the image fits perfectly */
+}
+
+/* Header Section */
+.nav-header {
+    display: flex;
+    justify-content: space-between; /* Space between logo and nav items */
+    align-items: center;
+    /* position: relative; Adjusted to avoid overlapping */
+    width: 100%;
+   
+}
+.logo {
+    max-width: 150px; /* Restrict the logo size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation List */
+ol {
+    display: flex;
+    justify-content: flex-end; /* Align nav items to the right */
+    list-style-type: none;
+    gap: 2rem; /* Space between nav items */
+    margin-right:6rem;
+   
+}
+
+ol li {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+ol li:hover {
+    color: #115c4e; /* Add hover effect for better interactivity */
+}
+
+/* Horizontal Line */
+.hr-line {
+    width: 100%;
+    border: 1px solid #30C7B5;
+    }
+
+/* Sicher Header Section */
+.sicher-header {
+    display: flex;
+    gap: 3rem;
+   width: 100%;
+   padding: 2rem;
+}
+
+/* Sicher Header Content */
+.sicher-header h1 {
+    font-family: "Poppins", sans-serif;
+    font-size:2.5rem;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.sicher-content {
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+    width: 40%;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+/* Sicher Image Section */
+/* .sicher-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.sicher-content h5{
+    font-family:Poppins,sans-serif;
+    font-weight:700;
+    color:#E9EBEF;
+    font-size:18px;
+}
+.sicher-img{
+
+   height: 100%;
+    margin: 0 auto; /* Center horizontally */
+   
+    
+}
+.sicher-img img{
+    /* width: 100%; */
+    /* height: 100%; */
+    object-fit:cover;
+    width: 400px;
+    /* margin-top: 2rem; */
+}
+.icon-div{
+    display: flex;
+    color:#E9EBEF;
+}
+.sicher-content p{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #E9EBEF;
+}
+.btn-div{
+  
+    display: flex;
+    gap: 1rem; 
+   
+}
+.btn-div button{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    width: 150px;
+    border-radius:5px; 
+    padding:10px;
+    cursor: pointer;
+}
+.free-qoute-btn{
+    background-color:#ffffff ;
+    color: #3CCAB9;
+    border: none;
+}
+.free-qoute-btn:hover{
+    background-color:#3CCAB9;
+    color: #ffffff;
+    border: 1px solid #6cf3e3;
+}
+.more-btn{
+    background-color:#3CCAB9;
+    color: #ffffff;
+    border: 1px solid #6cf3e3;
+}
+.more-btn:hover{
+    border: 1px solid #ffffff;
+}
+.icon-div{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap:2rem;
+}
+.icons-sub-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    margin-top: 10px;
+}
+.icon-bg{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 2px;
+    color: #3CCAB9;
+}
+.icons-sub-div p{
+    font-family: "Open Sans",sans-serif;
+    font-weight:600;
+    font-size: 15px;
+    color: #FFFFFF;
+}
