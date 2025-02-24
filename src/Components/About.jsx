@@ -7,6 +7,7 @@ const About = () => {
       <h1>About Us</h1>
     </div>
     <div>
+      <h1></h1>
       <p><span>Sicher SharedServices P Ltd </span>isa leading Company specializing in
 Income Tax, Company Law, and Audit services. Established with a
 vision to provide comprehensive and proﬁcient ﬁnancial solutions
