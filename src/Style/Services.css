@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 .services-main{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:2.5rem;
-    margin: 2.5rem;
+    padding: 0 5rem;
+    margin: 3.5rem;
     gap: 1rem;
 
 }
@@ -35,6 +36,148 @@
 }
 .services-img-div img{
     height:400px;
-    width:400px;
-   
+    width:400px;  
+}
+.services-main-flex-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+margin: 1rem;
+}
+.services-sub-flex-div{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.services-sub-flex-div h4{
+    font-family:"Open Sans",Arial,sans-serif;
+    font-weight:700;
+    font-size:1rem;
+    letter-spacing:5px;
+    text-transform: uppercase;
+    color: #37C0B0;
+}
+.services-sub-flex-div span{
+    font-family:Glegoo;
+    font-weight:700;
+    font-size:1.2rem;
+}
+.services-sub-flex-div p{
+    font-family:"Open Sans",Arial,sans-serif;
+    color: RGB(102, 102, 102);
+    font-size:.9rem;    
+}
+.how-we-work-div{
+    display: flex;
+    padding: 4rem;
+    gap: 1rem;
+}
+.how-we-work-div h3{
+    font-family:Glegoo;
+    font-weight:500;
+    font-size:2rem; 
+    color:RGB(51, 51, 51); 
+    margin-top: 2rem;
+    width: 25rem;
+}
+.how-we-work-div p{
+    width: 25rem;
+    font-family:"Open Sans",Arial,sans-serif;
+    color: RGB(102, 102, 102);
+    line-height:2;
+}
+.work-img-div{
+    height: 50%;
+    width: 50%;
+}
+.work-img-div img{
+    height: 400px;
+}
+.services-financial-div{
+    display: flex;
+    gap: 1rem;
+}
+.services-financialheader-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    margin: 1rem;
+    padding: 2rem;
+    height: 33rem;
+    width: 20rem;
+    background-color: #37C0B0;
+}
+.services-financialheader-div h3{
+    font-family:Glegoo;
+    font-weight:700;
+    font-size:2rem; 
+    color:white;
+}
+.services-financialheader-div p{
+    /* width: 25rem; */
+    font-family:"Open Sans",Arial,sans-serif;
+    color:white;
+    line-height:2;
+}
+.services-financialheader-div button{
+    background-color: white;
+    color: #37C0B0;
+    width: 10rem;
+    padding:.5rem;
+    border: none;
+    border-radius: 5px;
+}
+.finanacial-service-headings{
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.finanacial-service-headings span{
+    font-family:Glegoo;
+    font-weight:700;
+    font-size:1.5rem; 
+}
+.finanacial-service-headings p{
+    font-family:"Open Sans",Arial,sans-serif;
+    line-height:2;
+    color: RGB(102, 102, 102);
+    width: 25rem;
+}
+.financial-img-div{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.financial-img-div img{
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    display: flex;
+}
+.tax-services-main-div{
+    background-color: #20314F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    
+}
+.tax-services-main-div p{
+    color: white;
+    font-family:"Open Sans",Arial,sans-serif;
+    font-size:36px;
+    font-weight: 700;
+    display: flex;
+    width: 75rem;
+    padding: 1.5rem;
+
 }
