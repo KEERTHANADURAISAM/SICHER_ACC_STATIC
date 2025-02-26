@@ -67,7 +67,6 @@ const Home = () => {
   <img src={tax} alt=''/>
   </div>
 <div>
-
 </div>
     </div>
     {/* third grid */}

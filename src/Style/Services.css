@@ -29,6 +29,19 @@
     color: RGB(102, 102, 102);
     line-height:2;
 }
+.type-services-head{
+display: flex;
+gap: 10px;
+}
+.type-services-head img{
+    height: 3rem;
+    width: 3rem;
+}
+.type-services-head h5{
+    font-family:Glegoo;
+    font-weight: 500;
+    font-size: 2rem;
+}
 .services-img-div{
     height:50%;
     width: 50%;
@@ -69,32 +82,91 @@ margin: 1rem;
     color: RGB(102, 102, 102);
     font-size:.9rem;    
 }
-.how-we-work-div{
+.Accounting-services-div{
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 4rem;
     gap: 1rem;
 }
-.how-we-work-div h3{
+.Accounting-services-div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Accounting-services-div h4{
+    font-family:"Open Sans",Arial,sans-serif;
+    font-weight:700;
+    font-size:1rem;
+    letter-spacing:5px;
+    text-transform: uppercase;
+    color: #37C0B0;
+}
+.Accounting-services-div h3{
     font-family:Glegoo;
     font-weight:500;
     font-size:2rem; 
     color:RGB(51, 51, 51); 
-    margin-top: 2rem;
-    width: 25rem;
+    /* width: 25rem; */
 }
-.how-we-work-div p{
-    width: 25rem;
+.Accounting-services-div p{
+    /* width: 25rem; */
     font-family:"Open Sans",Arial,sans-serif;
     color: RGB(102, 102, 102);
     line-height:2;
 }
-.work-img-div{
-    height: 50%;
-    width: 50%;
-}
-.work-img-div img{
-    height: 400px;
-}
+.tax-service-flex {
+    display: flex;
+    flex-wrap: wrap;  /* Allows items to wrap to the next row */
+    justify-content: space-between; /* Distributes space evenly */
+    gap: 1.5rem; /* Adjust gap as needed */
+    padding: 2rem;
+  }
+  
+  .acc-flex-div {
+    flex: 1 1 calc(33.33% - 1.5rem); /* 3 items per row */
+    max-width: calc(33.33% - 1.5rem); /* Ensures proper width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    /* background: white; */
+    /* border-radius: 8px; */
+    /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); */
+  }
+  .acc-flex-div h3{
+    /* color:var(--primary-color); */
+    font-family: poppins;
+  }
+  .acc-flex-div p{
+    font-family:"Open Sans",Arial,sans-serif;
+    line-height:2;
+    color: RGB(102, 102, 102);
+  }
+  /* Ensure images fit well */
+  .acc-flex-div img {
+    width: 100%;
+    max-width: 60px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 992px) {
+    .acc-flex-div {
+      flex: 1 1 calc(50% - 1.5rem); /* 2 items per row */
+      max-width: calc(50% - 1.5rem);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .acc-flex-div {
+      flex: 1 1 100%; /* 1 item per row */
+      max-width: 100%;
+    }
+  }
+  
 .services-financial-div{
     display: flex;
     gap: 1rem;
@@ -166,18 +238,21 @@ margin: 1rem;
 .tax-services-main-div{
     background-color: #20314F;
     display: flex;
-    justify-content: center;
-    align-items: center;
+   flex-direction: column;
     padding: 2rem;
     
+}
+.tax-content-div{
+    display: flex;
 }
 .tax-services-main-div p{
     color: white;
     font-family:"Open Sans",Arial,sans-serif;
     font-size:36px;
     font-weight: 700;
-    display: flex;
-    width: 75rem;
     padding: 1.5rem;
 
+}
+.law-ul ul li{
+    list-style-type:✔;
 }
