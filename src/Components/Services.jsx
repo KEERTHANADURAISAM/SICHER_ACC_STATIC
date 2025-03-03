@@ -148,14 +148,17 @@ const Services = () => {
   <li>Drafting and Reviewing Legal Documents</li>
   <li>Company Secretarial Services</li>
 </ul> 
+</div>
 <div>
 <h3>Auditing Services</h3>
 <ul>
   <li>Statutory Audits</li>
   <li>Internal Audits</li>
   <li>Tax Audits</li>
+  <li> Due Diligence Audits </li>
+    <li> Specialized Audits for Compliance</li>
 </ul> 
-</div>
+
 </div>
  </div>
   

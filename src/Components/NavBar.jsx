@@ -1,7 +1,7 @@
 import { TiTick } from 'react-icons/ti';
 import '../Style/Navbar.css'; // Updated file name
 import logo from '../assets/Sicher Shared logo Final.png';
-import bgacc from '../assets/first_scene_blue_800x600_2_dribbble.gif';
+import bgacc from '../assets/Red Grayscale Subtle Gradient Upcoming Live Event Webinar Animated Linkedin Carousel Ad.png';
 import { useLocation } from 'react-router-dom';
 
 
@@ -62,7 +62,7 @@ const NavBar = () => {
 
              {/* Image Section */}
              <div className="sicher-img">
-            <img src={bgacc} alt="Background Accountant" />
+            {/* <img src={bgacc} alt="Background Accountant" /> */}
           </div>
          
         </div>
